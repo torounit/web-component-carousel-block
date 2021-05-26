@@ -8,7 +8,7 @@ function Save( { setAttributes, attributes } ) {
 
 	return (
 		<div {...blockProps}>
-			<macro-carousel pagination>
+			<macro-carousel pagination="true">
 				<InnerBlocks.Content />
 			</macro-carousel>
 		</div>
