@@ -1,0 +1,10 @@
+{
+    "name": "web-component-carousel-block/web-component-carousel-block",
+    "title": "web-component-carousel-block",
+    "category": "text",
+    "icon": "block-default",
+    "apiVersion": 2,
+    "attributes": {},
+    "description": "Show custom field value",
+    "editorScript": "file:./build/index.js"
+}
