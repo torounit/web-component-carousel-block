@@ -13,6 +13,7 @@ License: A "Slug" license name e.g. GPL2
 add_action(
 	'init',
 	function () {
-		register_block_type_from_metadata( __DIR__ );
+		register_block_type_from_metadata( __DIR__. '/src/carousel/block.json' );
+		register_block_type_from_metadata( __DIR__. '/src/carousel-item/block.json' );
 	}
 );

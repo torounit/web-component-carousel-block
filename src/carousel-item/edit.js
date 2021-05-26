@@ -8,11 +8,9 @@ function Edit( { setAttributes, attributes } ) {
 	const blockProps = useBlockProps();
 
 	return (
-		<>
-			<div { ...blockProps }>
-				hello
-			</div>
-		</>
+		<div { ...blockProps } style={ { maxWidth: '100%' } }>
+			hello
+		</div>
 	);
 }
 

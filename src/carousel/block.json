@@ -1,0 +1,20 @@
+{
+    "name": "web-component-carousel-block/carousel",
+    "title": "carousel",
+    "category": "text",
+    "icon": "block-default",
+    "apiVersion": 2,
+    "attributes": {},
+    "description": "Show custom field value",
+    "editorScript": "file:../../build/index.js",
+    "script": "file:../../build/script.js",
+    "supports": {
+        "anchor": true,
+        "align": [ "wide", "full" ],
+        "html": false,
+        "color": {
+            "gradients": true,
+            "link": true
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "web-component-carousel-block/carousel-item",
+    "title": "carousel-item",
+    "category": "text",
+    "icon": "block-default",
+    "parent": [
+        "web-component-carousel-block/carousel"
+    ],
+    "apiVersion": 2,
+    "attributes": {},
+    "description": "Show custom field value"
+}
